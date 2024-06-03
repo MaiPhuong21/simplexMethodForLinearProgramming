@@ -22,7 +22,7 @@ public class simplex_method {
     public static void initialize() {
 
         System.out.println("Choose Problem Type:\n" + "\t\t 1) Maximization Problem \n" + "\t\t 2) Minimization Problem");
-        System.out.print("Enter chosen type: ");
+        System.out.print("Please enter chosen type: ");
         int type = sc.nextInt();
         while (type > 2 || type <= 0) {
             System.out.println("!!!Invalid Input");
